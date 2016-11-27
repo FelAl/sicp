@@ -46,3 +46,4 @@
 
 (sqrt_nf 9)
 ;Aborting!: maximum recursion depth exceeded
+; additional level of recursion
