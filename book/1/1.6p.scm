@@ -37,8 +37,9 @@
   )
 
   (define (sqrt-iter guess)
-    (new-if (good-enough? guess) guess
-    (sqrt-iter (improve guess)))
+    (new-if (good-enough? guess) 
+      guess
+      (sqrt-iter (improve guess)))
   )
 
   (sqrt-iter 1.0)
