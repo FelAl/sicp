@@ -24,3 +24,5 @@
   )
 )
 
+(define (sumsq_rec a b c) ())
+
